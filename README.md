@@ -18,5 +18,6 @@ AutoHotKey (AHK) script to visualizes the current audio levels through dynamic v
 1. Install AutoHotKey (https://www.autohotkey.com).
 2. Download and open `TrayAudioVisualizer.ahk`.
 
-### For suggestions and bug-reporting, please refer to the issues section of this page. ![image](https://user-images.githubusercontent.com/41299807/179816323-fbc47e67
-### Note: this is not a spectrum analyzer, the bars represent the Current_Audio_Level $\pm$ random noise.
+## Notes
+### For suggestions and bug-reporting, please refer to the issues section of this page.
+### This is not a spectrum analyzer, the bars represent the Current_Audio_Level $\pm$ random noise.

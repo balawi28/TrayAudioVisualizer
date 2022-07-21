@@ -9,6 +9,8 @@ AutoHotKey (AHK) script to visualize the current audio levels through dynamic ve
 ## Application Features
 - Helps to find out if any audio is currently playing in the background without the need to unmute the volume.
 - A lightweight tool to help mute users find out whether the PC is playing audio or not.
+- One-file-program, no need to install or set up a folder.
+- It can be run automatically at startup.
 - Custom color for the audio bars:
 
 ![image](https://user-images.githubusercontent.com/41299807/179814079-ca57247a-5509-4bb5-9af5-5ffeaff920cb.png)

@@ -1,4 +1,4 @@
-﻿; Tray Audio Visualizer (by balawi28)
+; Tray Audio Visualizer (by balawi28)
 ; https://github.com/balawi28
 ;
 ; Credits to some functions used in my script:
@@ -21,7 +21,8 @@ OnExit("ExitApplication")
 IconColorPallete := "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA0klEQVRYhdXWLQ7CQBiE4Sk/jntwCrAoNFgOgEFxBC5CQq9BuAAGzSGwBEQz5ks23b/uTl+1ZtPOk4o2LZ4/JLRZH1OuY5J0O0Oz3b47tLeyD54f7gAUBHgoJcHlTEeADSVhlzM9AZZLwrWc6QqwWIm+5UxfgPlK+C5n4xFgLonQ5ay6QIPrI+p/YPk6AQC2qzcA4LKYRr1AdYHgb4DLbefPF0C4xHgEXMttoRL6Ar7Lbb4SugKxy219EnoCuZbbXBI6AkMtt1mJ+gKlltsoUV3gDx6yPiizmZYIAAAAAElFTkSuQmCC"
 
 ; Start gdi+
-If !pToken := Gdip_Startup()
+global pToken := Gdip_Startup()
+If !pToken
 {
 	MsgBox, 48, gdiplus error!, Gdiplus failed to start. Please ensure you have gdiplus on your system
 	ExitApp

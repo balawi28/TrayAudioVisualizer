@@ -32,10 +32,10 @@ If !pToken
 InitializeAboutGui()
 
 ; Stored variables
-global isRanAtStartup := 1
-global mainColor := 0xFFFFFFFF
-IniRead, isRanAtStartup, %A_ScriptFullPath%:Stream:$DATA, Settings, Startup, error
-IniRead, mainColor, %A_ScriptFullPath%:Stream:$DATA, Settings, MainColor, error 
+global isRanAtStartup
+global mainColor
+IniRead, isRanAtStartup, %A_ScriptFullPath%:Stream:$DATA, Settings, Startup, 0
+IniRead, mainColor, %A_ScriptFullPath%:Stream:$DATA, Settings, MainColor, 0xFF00FF00
 
 ; Tray
 Menu, Tray, NoStandard

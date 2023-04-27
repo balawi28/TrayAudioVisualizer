@@ -20,7 +20,7 @@ AutoHotKey (AHK) script to visualize current audio levels through dynamic vertic
 1. Install AutoHotKey (https://www.autohotkey.com).
 2. Download `Gdip.ahk` from [here](https://github.com/tariqporter/Gdip/blob/master/Gdip.ahk).
 3. Download `VA.ahk` from [here](https://github.com/SaifAqqad/VA.ahk/blob/master/VA.ahk).
-4. Download `TrayAudioVisualizer.ahk`.
+4. Download `TrayAudioVisualizer.ahk` from this repo.
 5. Put all 3 `.ahk` scripts in the same folder and run `TrayAudioVisualizer.ahk`.
 
 ## Notes
